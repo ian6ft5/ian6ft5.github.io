@@ -18,6 +18,7 @@ header {
     left: 0;
     height: 3rem;
     background-image: linear-gradient(to top right, #040814, #0c193e);
+    z-index: 10;
 }
 
 header img {
