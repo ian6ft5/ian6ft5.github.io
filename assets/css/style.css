@@ -77,6 +77,9 @@ main {
     justify-content: space-around;
     align-content: center;
     height: fit-content;
+    column-gap: .5rem;
+    max-width: 95vw;
+    flex-wrap: wrap;
 }
 
 .tile {
@@ -89,6 +92,8 @@ main {
     align-items: center;
     height: 100%;
     transition: width .75s, height 1s;
+    flex-shrink: 0;
+    margin: .5rem 0;
 }
 
 .tile h5 {
@@ -147,6 +152,7 @@ main {
 
 .tile:hover {
     width: 35%;
+    margin: .1rem 0;
 }
 
 .tile:hover h5 {
