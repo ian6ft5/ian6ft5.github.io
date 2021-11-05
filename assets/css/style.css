@@ -192,4 +192,5 @@ footer h4 {
 
 footer .image-container {
     width: 15%;
+    border-radius: 8px;
 }
