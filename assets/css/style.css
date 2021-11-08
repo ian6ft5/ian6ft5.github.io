@@ -74,10 +74,10 @@ main {
 
 .tiles {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
     height: fit-content;
-    column-gap: .5rem;
+    column-gap: 1.5rem;
     max-width: 95vw;
     flex-wrap: wrap;
 }
