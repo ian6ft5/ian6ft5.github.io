@@ -86,14 +86,18 @@ main {
     width: 30%;
     background-image: linear-gradient(to bottom right, #9a36ff, #b469ff);
     border-radius: .3rem;
+    height: 100%;
+    transition: width .75s, height 1s;
+    margin: .5rem 0;
+}
+
+.tile a {
+    width: 100%;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 100%;
-    transition: width .75s, height 1s;
-    flex-shrink: 0;
-    margin: .5rem 0;
 }
 
 .tile h5 {
@@ -127,7 +131,7 @@ main {
     left: 0;
     bottom: 0;
     right: 0;
-    transition: opacity 1.25s 4.5s;
+    transition: opacity 1.25s 3.5s;
 }
 
 .top {
@@ -137,7 +141,7 @@ main {
     left: 0;
     bottom: 0;
     right: 0;
-    transition: opacity 1.25s 2s;  
+    transition: opacity 1.25s 1.5s;  
 }
 
 .tile .content {
@@ -159,11 +163,11 @@ main {
     display: inherit;
 }
 
-.image-container:hover .top {
+.tile:hover .top {
     opacity: 0;
 }
 
-.image-container:hover .mid {
+.tile:hover .mid {
     opacity: 0;
 }
 
